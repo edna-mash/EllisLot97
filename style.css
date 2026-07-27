@@ -1,0 +1,78 @@
+
+/*
+  style.css
+  source: $Source$
+  revision: $Revision$
+*/
+
+html { font-size: 2.5vw; }
+@media all and (min-width:1000px) { html { font-size: 24px; } }
+@media all and (max-width:520px) { html{ font-size: 18px; } }
+
+a {
+  text-decoration: none;
+  color: #1464a0;
+}
+
+body {
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 850px;
+}
+
+h3 {
+		margin-top: 24pt;
+		text-align: center;
+}
+
+h4 {
+		text-align: center;
+		margin-top: 0px;
+}
+
+img, table {
+		width:100%;
+		}
+
+td {
+		text-align: center;
+}
+
+div.summary td {
+		vertical-align: top;
+		text-align: left;
+}
+
+figcaption, cite {
+		text-align: center;
+		font-size: 0.8rem;
+}
+
+.table-title {
+		text-align: center;
+		margin-bottom: 2pt;
+}
+
+.name {
+		text-align: left;
+}
+
+ol {
+		list-style-position: outside;
+\		}
+
+li {
+		margin-bottom: 8pt;
+		padding-left: 0.75em;
+}
+
+.footnote-ref {
+  font-size: 0.85em;
+  line-height: 0;
+  vertical-align: 0.3em;
+  text-decoration: none;
+}
+
+
